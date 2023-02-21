@@ -1,8 +1,8 @@
 {
-  "name": "form-serializer",
+  "name": "serialize-object",
   "version": "2.5.0",
   "description": "serialize form fields into an object or JSON",
-  "main": "./jquery.serialize-object.js",
+  "main": "./serialize-object.js",
   "scripts": {
     "test": "npm run build && open ./test/test.html",
     "build": "npm run minify",
@@ -30,5 +30,8 @@
   },
   "devDependencies": {
     "uglify-js": "^2.4.16"
+  },
+  "dependencies": {
+    "lodash.merge": "^4.6.2"
   }
 }
